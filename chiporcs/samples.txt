@@ -1,0 +1,13 @@
+1 1_R1P.fastq 1_R2P.fastq input control epi 1
+2 2_R1P.fastq 2_R2P.fastq chip control epi 1
+3 3_R1P.fastq 3_R2P.fastq input control epi 2
+4 4_R1P.fastq 4_R2P.fastq chip control epi 2
+5 5_R1P.fastq 5_R2P.fastq input control epi 3
+6 6_R1P.fastq 6_R2P.fastq chip control epi 3
+7 13_R1P.fastq 13_R2P.fastq input Ty1 epi 1
+8 14_R1P.fastq 14_R2P.fastq chip Ty1 epi 1
+9 15_R1P.fastq 15_R2P.fastq input Ty1 epi 2
+10 16_R1P.fastq 16_R2P.fastq chip Ty1 epi 2
+11 17_R1P.fastq 17_R2P.fastq input Ty1 epi 3
+12 18_R1P.fastq 18_R2P.fastq chip Ty1 epi 3
+13 dummySample_R1.fastq dummySample_R2.fastq
