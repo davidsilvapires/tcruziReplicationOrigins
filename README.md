@@ -1,7 +1,7 @@
 # tcruziReplicationOrigins
 This repository contains scripts relative to experiments published at the following paper: Integrating high-throughput analysis to create an atlas of replication origins in Trypanosoma cruzi in the context of genome structure and variability (to be submitted).
 
-## Pipelines
+# Pipelines
 Three pipelines are coded in the shared files:
 1. chiporcs
 2. dnascent
