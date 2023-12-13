@@ -1,5 +1,5 @@
-# _T. cruzi_ Replication Origins
-This repository contains scripts relative to experiments published at the following paper: Integrating high-throughput analysis to create an atlas of replication origins in Trypanosoma cruzi in the context of genome structure and variability (to be submitted).
+# _Trypanosoma cruzi_ Replication Origins
+This repository contains scripts relative to experiments published at the following paper: **Integrating high-throughput analysis to create an atlas of replication origins in _Trypanosoma cruzi_ in the context of genome structure and variability** (_to be submitted_).
 
 # Pipelines
 Three pipelines are coded in the shared files:
