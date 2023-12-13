@@ -11,6 +11,10 @@ Three pipelines are coded in the shared files:
 
 Each pipeline is composed of steps that should be executed in a linear fashion way. The order of the steps are indicated by numbers. If two steps can be executed in parallel, the number is followed by a letter (e.g.: `5a`, `5b`).
 
+```bash
+echo "Código em Bash."
+```
+
 ## Chip-seq of ORCs pipeline
 
 ## DNAscent pipeline
