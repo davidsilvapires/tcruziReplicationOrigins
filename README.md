@@ -1,4 +1,4 @@
-![Butantan Institute](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.abelv.com.br%2Fcopia-boehringer-ingelheim-merial-1&psig=AOvVaw1Us96Cj2WFohhQHoaVBU38&ust=1702554123378000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCGo8GqjIMDFQAAAAAdAAAAABAT)
+![Butantan Institute](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Logo_Instituto_Butantan_horizontal.svg/800px-Logo_Instituto_Butantan_horizontal.svg.png)
 
 # _Trypanosoma cruzi_ Replication Origins
 > Text that is a quote
