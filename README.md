@@ -3,6 +3,8 @@
 
 This repository contains scripts relative to experiments published at the following paper: **Integrating high-throughput analysis to create an atlas of replication origins in _Trypanosoma cruzi_ in the context of genome structure and variability** (_to be submitted_).
 
+This site was built using [GitHub Pages](https://pages.github.com/).
+
 # Pipelines
 Three pipelines are coded in the shared files:
 1. chiporcs
