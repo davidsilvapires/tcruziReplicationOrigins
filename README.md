@@ -1,4 +1,4 @@
-![Butantan Institute](https://butantan.gov.br/assets/img/logo_butantan%20branco.png)
+![Butantan Institute](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Logo_Instituto_Butantan_horizontal.svg/800px-Logo_Instituto_Butantan_horizontal.svg.png)
 
 # _Trypanosoma cruzi_ Replication Origins
 > Text that is a quote
