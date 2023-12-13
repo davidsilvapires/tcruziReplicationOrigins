@@ -19,7 +19,7 @@ echo "Código em Bash."
 
 ## Chip-seq of ORCs pipeline
 
-[Main directory](chipSeq/)
+[Main directory](chiporcs/)
 
 ## DNAscent pipeline
 
