@@ -19,6 +19,8 @@ echo "Código em Bash."
 
 ## Chip-seq of ORCs pipeline
 
+[Main directory](chipSeq/)
+
 ## DNAscent pipeline
 
 ## Atlas composition
