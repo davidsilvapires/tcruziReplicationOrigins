@@ -41,7 +41,11 @@ mkdir log
 script/chiporcsDriver.bash 2>&1 | tee log/chiporcsDriver.log
 ```
 
-## Configuração
+### Configuration
+
+To configure the pipeline and adapt it to your specific necessities...
+
+You can customize the behaviour of the pipeline by editing the configuration file at `config/pipeline_config.yml`.
 
 ## Contribuição
 
