@@ -38,7 +38,7 @@ curl --output /usr/local/bin/faCount https://github.com/ENCODE-DCC/kentUtils/blo
 ```
 
 Besides the above packages and programs, there are other software that have to be installed according to the instructions at their sites:
-* [Homer](http://homer.salk.edu/homer/download.html)
+* [Homer](http://homer.ucsd.edu/homer/download.html)
 
 
 ## Pipelines
