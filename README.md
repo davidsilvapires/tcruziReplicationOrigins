@@ -34,6 +34,13 @@ sudo apt install package-name
 
 ## Usage
 
+To execute the pipeline, run the following command:
+
+```bash
+mkdir log
+script/chiporcsDriver.bash 2>&1 | tee log/chiporcsDriver.log
+```
+
 ## Configuração
 
 ## Contribuição
