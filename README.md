@@ -6,16 +6,16 @@
 
 [![Versão](https://img.shields.io/badge/vers%C3%A3o-1.0.0-brightgreen.svg)](https://semver.org)
 
-## Índice
+## Summary
 
-1. [Visão Geral](#visão-geral)
-2. [Instalação](#instalação)
-3. [Uso](#uso)
-4. [Configuração](#configuração)
-5. [Contribuição](#contribuição)
-6. [Licença](#licença)
+1. [Overview](#overview)
+2. [Install](#install)
+3. [Usage](#usage)
+4. [Configuration](#configuration)
+5. [Contribution](#contribution)
+6. [License](#license)
 
-## Visão geral
+## Overview
 
 This repository contains scripts relative to experiments published at the following paper: **Integrating high-throughput analysis to create an atlas of replication origins in _Trypanosoma cruzi_ in the context of genome structure and variability** (_to be submitted_).
 
@@ -24,9 +24,15 @@ We present three different pipelines:
 2. **DNAscent:** Nascent DNA pipeline.
 3. **Atlas:** The construction of a dataset that combines the results of the implemented pipelines.
 
-## Instalação
+## Install
 
-## Uso
+To install the dependencies, use the following command:
+
+```bash
+sudo apt install package-name
+```
+
+## Usage
 
 ## Configuração
 
