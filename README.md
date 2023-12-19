@@ -11,6 +11,9 @@ We present three different pipelines:
 2. **DNAscent:** Nascent DNA pipeline.
 3. **Atlas:** The construction of a dataset that combines the results of the implemented pipelines.
 
+[![Versão](https://img.shields.io/badge/vers%C3%A3o-1.0.0-brightgreen.svg)](https://semver.org)
+[![Status de Construção](https://img.shields.io/travis/seu-usuario/seu-projeto/master.svg)](https://travis-ci.org/seu-usuario/seu-projeto)
+
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 - George Washington
