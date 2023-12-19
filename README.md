@@ -66,11 +66,6 @@ This project is licensed under [GPL](LICENSE).
 - [Important note about the pipeline]
 - [Other important informations]
 
-This site was built using [GitHub Pages](https://pages.github.com/).
-
-- George Washington
-* John Adams
-+ Thomas Jefferson
 
 # Pipelines
 Three pipelines are coded in the shared files:
@@ -79,6 +74,19 @@ Three pipelines are coded in the shared files:
 3. atlas
 
 Each pipeline is composed of steps that should be executed in a linear fashion way. The order of the steps are indicated by numbers. If two steps can be executed in parallel, the number is followed by a letter (e.g.: `5a`, `5b`).
+
+## Chip-seq of ORCs pipeline
+
+## DNAscent pipeline
+
+## Atlas composition
+
+<!--
+This site was built using [GitHub Pages](https://pages.github.com/).
+
+- George Washington
+* John Adams
++ Thomas Jefferson
 
 ```bash
 echo "Código em Bash."
@@ -92,13 +100,7 @@ A footnote can also have multiple lines[^2].
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
   This is a second line.
 
-## Chip-seq of ORCs pipeline
-
 [Main directory](chiporcs/)
-
-## DNAscent pipeline
-
-## Atlas composition
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
@@ -114,5 +116,6 @@ A footnote can also have multiple lines[^2].
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+-->
 
 <!-- This content will not appear in the rendered Markdown -->
