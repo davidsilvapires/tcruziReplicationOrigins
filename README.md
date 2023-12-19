@@ -35,6 +35,8 @@ sudo apt install package-name
 
 ## Usage
 
+Our pipeline is mainly in Bash, only the final steps that involve the generation of plots is written in R.
+
 To execute the pipeline, run the following command:
 
 ```bash
