@@ -24,6 +24,16 @@ We present three different pipelines:
 2. **DNAscent:** Nascent DNA pipeline.
 3. **Atlas:** The construction of a dataset that combines the results of the implemented pipelines.
 
+## Instalação
+
+## Uso
+
+## Configuração
+
+## Contribuição
+
+## Licença
+
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 - George Washington
