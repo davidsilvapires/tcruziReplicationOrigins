@@ -4,15 +4,14 @@
 
 > "Nas origens de replicação, a sinfonia molecular da duplicação do DNA se desenrola, tecendo a narrativa da continuidade genética."   - [ChatGPT]
 
+[![Versão](https://img.shields.io/badge/vers%C3%A3o-1.0.0-brightgreen.svg)](https://semver.org)
+
 This repository contains scripts relative to experiments published at the following paper: **Integrating high-throughput analysis to create an atlas of replication origins in _Trypanosoma cruzi_ in the context of genome structure and variability** (_to be submitted_).
 
 We present three different pipelines:
 1. **Chiporcs:** ChIP-seq pipeline of Orc1Cdc6 in _Trypanosoma cruzi_.
 2. **DNAscent:** Nascent DNA pipeline.
 3. **Atlas:** The construction of a dataset that combines the results of the implemented pipelines.
-
-[![Versão](https://img.shields.io/badge/vers%C3%A3o-1.0.0-brightgreen.svg)](https://semver.org)
-[![Status de Construção](https://img.shields.io/travis/seu-usuario/seu-projeto/master.svg)](https://travis-ci.org/seu-usuario/seu-projeto)
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
