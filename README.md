@@ -53,3 +53,5 @@ A footnote can also have multiple lines[^2].
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+
+<!-- This content will not appear in the rendered Markdown -->
