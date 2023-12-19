@@ -2,8 +2,7 @@
 
 # _Trypanosoma cruzi_ Replication Origins
 
-> "Nas origens de replicação, a sinfonia molecular da duplicação do DNA se desenrola, tecendo a narrativa da continuidade genética."
->                     ChatGPT
+> "Nas origens de replicação, a sinfonia molecular da duplicação do DNA se desenrola, tecendo a narrativa da continuidade genética."   - [ChatGPT]
 
 This repository contains scripts relative to experiments published at the following paper: **Integrating high-throughput analysis to create an atlas of replication origins in _Trypanosoma cruzi_ in the context of genome structure and variability** (_to be submitted_).
 
