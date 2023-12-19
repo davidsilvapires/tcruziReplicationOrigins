@@ -1,9 +1,15 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Logo_Instituto_Butantan_horizontal.svg/800px-Logo_Instituto_Butantan_horizontal.svg.png" height="100">
 
 # _Trypanosoma cruzi_ Replication Origins
-> Text that is a quote
 
 This repository contains scripts relative to experiments published at the following paper: **Integrating high-throughput analysis to create an atlas of replication origins in _Trypanosoma cruzi_ in the context of genome structure and variability** (_to be submitted_).
+
+We present three different pipelines:
+1. **Chiporcs:** ChIP-seq pipeline of Orc1Cdc6 in _Trypanosoma cruzi_.
+2. **DNAscent:** Nascent DNA pipeline.
+3. **Atlas:** The construction of a dataset that combines the results of the implemented pipelines.
+
+> Text that is a quote
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
