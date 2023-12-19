@@ -33,9 +33,12 @@ We present three different pipelines:
 To install the dependencies, use the following command:
 
 ```bash
-sudo apt install hisat2 samtools
+sudo apt install bedtools hisat2 samtools
 curl --output /usr/local/bin/faCount https://github.com/ENCODE-DCC/kentUtils/blob/master/bin/linux.x86_64/faCount
 ```
+
+Besides the above packages and programs, there are other software that have to be installed according to the instructions at their sites:
+* [Homer](http://homer.salk.edu/homer/download.html)
 
 
 ## Pipelines
