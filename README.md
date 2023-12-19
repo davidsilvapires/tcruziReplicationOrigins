@@ -14,6 +14,7 @@
 4. [Configuration](#configuration)
 5. [Contribution](#contribution)
 6. [License](#license)
+7. [Additional Notes](#notes)
 
 ## Overview
 
@@ -57,6 +58,11 @@ Suggestions are welcome! Please, send your ideas to the following email address:
 
 This project is licensed under [GPL](LICENSE).
 
+
+## Additional notes
+
+- [Important note about the pipeline]
+- [Other important informations]
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
