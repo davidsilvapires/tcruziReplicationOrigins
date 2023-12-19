@@ -44,3 +44,6 @@ A footnote can also have multiple lines[^2].
 
 > [!TIP]
 > Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
