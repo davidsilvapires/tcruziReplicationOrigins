@@ -1,5 +1,5 @@
 ![Butantan Institute](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Logo_Instituto_Butantan_horizontal.svg/800px-Logo_Instituto_Butantan_horizontal.svg.png)
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Logo_Instituto_Butantan_horizontal.svg/800px-Logo_Instituto_Butantan_horizontal.svg.png" width="200" height="100">
 # _Trypanosoma cruzi_ Replication Origins
 > Text that is a quote
 
