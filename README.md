@@ -10,11 +10,12 @@
 
 1. [Overview](#overview)
 2. [Install](#install)
-3. [Usage](#usage)
-4. [Configuration](#configuration)
-5. [Contribution](#contribution)
-6. [License](#license)
-7. [Additional Notes](#notes)
+3. [Pipelines](#pipelines)
+4. [Usage](#usage)
+5. [Configuration](#configuration)
+6. [Contribution](#contribution)
+7. [License](#license)
+8. [Additional Notes](#notes)
 
 ## Overview
 
@@ -35,6 +36,21 @@ To install the dependencies, use the following command:
 sudo apt install package-name
 ```
 
+
+## Pipelines
+Three pipelines are coded in the shared files:
+1. chiporcs
+2. dnascent
+3. atlas
+
+Each pipeline is composed of steps that should be executed in a linear fashion way. The order of the steps are indicated by numbers. If two steps can be executed in parallel, the number is followed by a letter (e.g.: `5a`, `5b`).
+
+### Chip-seq of ORCs pipeline
+
+### DNAscent pipeline
+
+### Atlas composition
+
 ## Usage
 
 Our pipeline is basically written in Bash, only the final steps that involve the generation of plots are written in R.
@@ -46,7 +62,7 @@ mkdir log
 script/chiporcsDriver.bash 2>&1 | tee log/chiporcsDriver.log
 ```
 
-### Configuration
+## Configuration
 
 To configure the pipeline and adapt it to your specific necessities...
 
@@ -67,21 +83,6 @@ This project is licensed under [GPL](LICENSE).
 
 - [Important note about the pipeline]
 - [Other important informations]
-
-
-# Pipelines
-Three pipelines are coded in the shared files:
-1. chiporcs
-2. dnascent
-3. atlas
-
-Each pipeline is composed of steps that should be executed in a linear fashion way. The order of the steps are indicated by numbers. If two steps can be executed in parallel, the number is followed by a letter (e.g.: `5a`, `5b`).
-
-## Chip-seq of ORCs pipeline
-
-## DNAscent pipeline
-
-## Atlas composition
 
 <!--
 This site was built using [GitHub Pages](https://pages.github.com/).
