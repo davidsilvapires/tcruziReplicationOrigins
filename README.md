@@ -53,7 +53,10 @@ You can customize the behaviour of the pipeline by editing the configuration fil
 Suggestions are welcome! Please, send your ideas to the following email address:
 
 
-## Licença
+## License
+
+This project is licensed under [GPL](LICENSE).
+
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
