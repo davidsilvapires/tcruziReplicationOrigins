@@ -33,7 +33,8 @@ We present three different pipelines:
 To install the dependencies, use the following command:
 
 ```bash
-sudo apt install package-name
+sudo apt install hisat2 samtools
+curl --output /usr/local/bin/faCount https://github.com/ENCODE-DCC/kentUtils/blob/master/bin/linux.x86_64/faCount
 ```
 
 
