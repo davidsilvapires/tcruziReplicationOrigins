@@ -4,7 +4,7 @@
 
 > "At the replication origins, the molecular symphony of DNA duplication unfolds, weaving the narrative of genetic continuity." - [ChatGPT]
 
-[![Versão](https://img.shields.io/badge/vers%C3%A3o-1.0.0-brightgreen.svg)](https://semver.org)
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](https://semver.org)
 
 ## Summary
 
