@@ -11,8 +11,8 @@
 1. [Overview](#overview)
 2. [Install](#install)
 3. [Pipelines](#pipelines)
-4. [Usage](#usage)
-5. [Configuration](#configuration)
+4. [Configuration](#configuration)
+5. [Usage](#usage)
 6. [Contribution](#contribution)
 7. [License](#license)
 8. [Additional Notes](#notes)
@@ -55,6 +55,13 @@ Each pipeline is composed of steps that should be executed in a linear fashion w
 
 ### Atlas composition
 
+
+## Configuration
+
+To configure the pipeline and adapt it to your specific necessities...
+
+You can customize the behaviour of the pipeline by editing the configuration file at `config/pipeline_config.yml`.
+
 ## Usage
 
 Our pipeline is basically written in Bash, only the final steps that involve the generation of plots are written in R.
@@ -65,12 +72,6 @@ To execute the pipeline, run the following command:
 mkdir log
 script/chiporcsDriver.bash 2>&1 | tee log/chiporcsDriver.log
 ```
-
-## Configuration
-
-To configure the pipeline and adapt it to your specific necessities...
-
-You can customize the behaviour of the pipeline by editing the configuration file at `config/pipeline_config.yml`.
 
 
 ## Contribution
