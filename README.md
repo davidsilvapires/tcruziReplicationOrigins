@@ -20,13 +20,13 @@
 
 ## Overview
 
-_Trypanosoma cruzi_, the parasite responsible for Chagas disease, has a genome containing numerous multigenic families that encode virulent antigens within a dynamically evolving genomic compartment called Disruptive. DNA replication is an accurate biological process, and deviations can lead to mutations and alterations in chromosomal and gene copy numbers. In this manner, understanding the dynamics of  _T. cruzi_ DNA replication can contribute to better elucidating its relationship with the success of the parasite's infection and the evolution of the species. Briefly, we conducted a computational analysis using data from ChIP-seq of Orc1Cdc6, Nanopore sequencing of BrdU-incorporated DNA (D-Nascent), and MFA-seq of epimastigote _T. cruzi_ to locate replication origins. By employing cutting-edge high-throughput and single-molecule analyses, we have identified three distinct categories of origins that compose an atlas: Predominant, Flexible, and Dormant Orc1Cdc6-dependent origins, in addition to Orc1Cdc6-independent origins.
+_Trypanosoma cruzi_, the parasite responsible for Chagas disease, has a genome containing numerous multigenic families that encode virulent antigens within a dynamically evolving genomic compartment called Disruptive. DNA replication is an accurate biological process, and deviations can lead to mutations and alterations in chromosomal and gene copy numbers. In this manner, understanding the dynamics of  _T. cruzi_ DNA replication can contribute to better elucidating its relationship with the success of the parasite's infection and the evolution of the species. Briefly, we conducted a computational analysis using data from ChIP-seq of Orc1Cdc6, Nanopore sequencing of BrdU-incorporated DNA (D-NAscent), and MFA-seq of epimastigote _T. cruzi_ to locate replication origins. By employing cutting-edge high-throughput and single-molecule analyses, we have identified three distinct categories of origins that compose an atlas: Predominant, Flexible, and Dormant Orc1Cdc6-dependent origins, in addition to Orc1Cdc6-independent origins.
 
 This repository contains scripts relative to experiments published at the following paper: **Integrating high-throughput analysis to create an atlas of replication origins in _Trypanosoma cruzi_ in the context of genome structure and variability** (_to be submitted_).
 
 We present three different pipelines:
 1. **Chiporcs:** ChIP-seq pipeline of Orc1Cdc6 in _Trypanosoma cruzi_.
-2. **DNAscent:** Nascent DNA pipeline.
+2. **D-NAscent:** Nascent DNA pipeline.
 3. **Atlas:** The construction of a dataset that combines the results of the implemented pipelines.
 
 ## Install
@@ -43,16 +43,22 @@ Besides the above packages and programs, there are other software that have to b
 
 
 ## Pipelines
-Three pipelines are coded in the shared files:
+
+This project is based on three main pipelines to identify and analyze the replication origins identified by different techniques (ChIP-seq, D-NAscent and MFA-seq). Firstly, in this project, we identify the DNA replication origins of _T. cruzi_ through three distinct approaches, as mentioned above. In this manner, a dataset of DNA replication origins identified by the MFA-seq technique was utilized, which had previously been published by our group. Next, Orc1Cdc6 binding sites were identified through the ChIP-seq assay, using the pipeline created by our group and will be detailed subsequently. Finally, DNA replication origins were identified through the methodology of detecting BrDU-incorporated nascent DNA molecules, followed by MinION sequencing and the D-NAscent software, which enable the determination of the direction of the replication fork in individual DNA molecules.
+
+The three pipelines are coded in the following shared files:
 1. chiporcs
-2. dnascent
+2. D-NAscent
 3. atlas
 
 Each pipeline is composed of steps that should be executed in a linear fashion way. The order of the steps are indicated by numbers. If two steps can be executed in parallel, the number is followed by a letter (e.g.: `5a`, `5b`).
 
+
 ### Chip-seq of ORCs pipeline
 
-### DNAscent pipeline
+
+### D-NAscent pipeline
+
 
 ### Atlas composition
 
