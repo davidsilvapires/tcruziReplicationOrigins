@@ -67,6 +67,18 @@ For the assembly of the dataset of origins identified by the D-NAscent method, w
 
 ### Atlas composition
 
+For the construction of the replication origin atlas, we employed various `bedtools` tools, including `intersect`, `subtract`, and `closest`.
+
+In summary, we utilized 5 pipelines to analyze replication origins. Initially, we constructed a dataset containing the genomic coordinates of Core and Disruptive compartments, according to information available in the literature. Subsequently, we generated the dataset of predominant origins using the `bedtools intersect` tool. This involved using the dataset of replication origins identified by MFA-seq and the dataset of Orc1Cdc6 binding sites identified by ChIP-seq as input. In this context, we defined predominant origins as the genomic coordinates of MFA-seq origins that overlapped with the genomic coordinates of Orc1Cdc6 binding sites (ChIP-seq). Repetitive coordinates were removed using the Linux command `sort -u`.
+
+With regard to the flexible origins dataset, the assembly utilized `bedtools intersect` and `subtract` tools. Thus, the genomic coordinates of replication origins identified by D-NAscent were removed from all origins that intersect with predominant origins. Subsequently, all origins that overlapped with the coordinates of Orc1Cdc6 binding sites (ChIP-seq) were selected. Finally, repetitive coordinates were removed using the Linux command `sort -u`.
+
+The datasets of dormant replication origins were compiled using the genomic coordinates of Orc1Cdc6 binding sites that do not intersect with the genomic coordinates of origins identified by MFA-seq and/or D-NAscent. The composition was created using the `bedtools subtract` tool.
+
+For the creation of Orc1Cdc6-free replication origin datasets, we employed the `bedtools subtract` tool. Thus, we selected the replication origins identified by D-NAscent that are not associated with the genomic coordinates of Orc1Cdc6 binding sites (ChIP-seq).
+
+Additionally, `deeptools` tools were used for the generation of heatmaps, such as `compute matrix` and `plotheatmap`. For the graphical visualization of the distribution of replication origins across the genome (features, coding sequences, and compartments), and distance between origens and Orc1Cdc6 peaks, we developed scripts in R.
+
 
 ## Configuration
 
