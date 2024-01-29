@@ -11,12 +11,7 @@
 1. [Overview](#overview)
 2. [Install](#install)
 3. [Pipelines](#pipelines)
-4. [Configuration](#configuration)
-5. [Usage](#usage)
-6. [Examples](#examples)
-7. [Contribution](#contribution)
-8. [License](#license)
-9. [Additional Notes](#notes)
+4. [License](#license)
 
 ## Overview
 
