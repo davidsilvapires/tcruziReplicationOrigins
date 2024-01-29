@@ -84,7 +84,7 @@ For the creation of Orc1Cdc6-free replication origin datasets, we employed the `
 
 Additionally, `deepTools` tools were used for the generation of heatmaps, such as `compute matrix` and `plotheatmap`. For the graphical visualization of the distribution of replication origins across the genome (features, coding sequences, and compartments), and distance between origens and Orc1Cdc6 peaks, we developed scripts in R.
 
-
+<!--
 ## Configuration
 
 To configure the pipeline and adapt it to your specific necessities...
@@ -109,19 +109,19 @@ script/chiporcsDriver.bash 2>&1 | tee log/chiporcsDriver.log
 ## Contribution
 
 Suggestions are welcome! Please, send your ideas to the following email address:
+-->
 
 
 ## License
 
 This project is licensed under [GPL](LICENSE).
 
-
+<!--
 ## Additional notes
 
 - [Important note about the pipeline]
 - [Other important informations]
 
-<!--
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 - George Washington
