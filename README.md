@@ -34,11 +34,15 @@ We present three different pipelines:
 To install the dependencies, use the following command:
 
 ```bash
-sudo apt install bedtools hisat2 samtools
+sudo apt install bedtools gawk grep hisat2 minimap2 python3-deeptools samtools sed
+curl --output /usr/local/bin/bedGraphToBigWig https://github.com/ENCODE-DCC/kentUtils/blob/master/bin/linux.x86_64/bedGraphToBigWig
 curl --output /usr/local/bin/faCount https://github.com/ENCODE-DCC/kentUtils/blob/master/bin/linux.x86_64/faCount
+curl --output /usr/local/bin/faToTwoBit https://github.com/ENCODE-DCC/kentUtils/blob/master/bin/linux.x86_64/faToTwoBit
 ```
 
 Besides the above packages and programs, there are other software that have to be installed according to the instructions at their sites:
+* [D-NAscent](https://github.com/MBoemo/DNAscent)
+* [Guppy](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/Guppy-protocol/v/gpb_2003_v1_revax_14dec2018/linux-guppy)
 * [Homer](http://homer.ucsd.edu/homer/download.html)
 
 
