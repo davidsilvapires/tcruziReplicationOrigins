@@ -77,7 +77,7 @@ The datasets of dormant replication origins were compiled using the genomic coor
 
 For the creation of Orc1Cdc6-free replication origin datasets, we employed the `bedtools subtract` tool. Thus, we selected the replication origins identified by D-NAscent that are not associated with the genomic coordinates of Orc1Cdc6 binding sites (ChIP-seq).
 
-Additionally, `deeptools` tools were used for the generation of heatmaps, such as `compute matrix` and `plotheatmap`. For the graphical visualization of the distribution of replication origins across the genome (features, coding sequences, and compartments), and distance between origens and Orc1Cdc6 peaks, we developed scripts in R.
+Additionally, `deepTools` tools were used for the generation of heatmaps, such as `compute matrix` and `plotheatmap`. For the graphical visualization of the distribution of replication origins across the genome (features, coding sequences, and compartments), and distance between origens and Orc1Cdc6 peaks, we developed scripts in R.
 
 
 ## Configuration
