@@ -41,6 +41,7 @@ curl --output /usr/local/bin/faToTwoBit https://github.com/ENCODE-DCC/kentUtils/
 ```
 
 Besides the above packages and programs, there are other software that have to be installed according to the instructions at their sites:
+* [annotatePolycistron](https://github.com/alexranieri/annotatePolycistron)
 * [D-NAscent](https://github.com/MBoemo/DNAscent)
 * [Guppy](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/Guppy-protocol/v/gpb_2003_v1_revax_14dec2018/linux-guppy)
 * [Homer](http://homer.ucsd.edu/homer/download.html)
