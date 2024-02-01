@@ -106,8 +106,6 @@ script/chiporcsDriver.bash 2>&1 | tee log/chiporcsDriver.log
 Suggestions are welcome! Please, send your ideas to the following email address:
 -->
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
 
 ## License
 
